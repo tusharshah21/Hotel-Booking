@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&family=Roboto:wght@900&display=swap');
+
+.homenavbar{
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+
+hr{
+  height: 3px!important;
+}
+
+
+.icon{
+  width: 20px;
+}
+
+/* .homebar{
+  background-color: #26b184;
+  margin-top:0;
+} */
+.navbarcontent{
+  margin-top: -10rem;
+}
+
+.img-2navbarcontent{
+  width: 100%;
+}
+
+.img-1navbarcontent{
+  background-color: #222831;
+  padding: 0;
+}
+
+.img-2navbarcont{
+  padding: 0;
+  position: relative;
+}
+
+.navcontent{
+  padding: 16rem 100px 0 200px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* .row{
+  display: block;
+} */
+
+
+/* MID-CONTENT */
+
+.mid-content{
+  padding: 150px 0 100px;
+  background-color: #EFFFFD;
+}
+
+
+.midcontent-img1{
+  border-radius: 10px;
+  width: 80%;
+  margin-left:20px;
+
+}
+
+.midcontent-img2{
+  width: 80%;
+  margin-left:20px;
+ 
+}
+
+.midindex{
+  color: #393E46;
+  font-weight: bold;
+}
+
+
+/* MIDINDEX */
+
+.midindex-img1{
+  border-radius: 10px;
+  width: 60%;
+  margin-left:20px;
+}
+
+
+.pricing-content{
+ padding: 150px;
+ width: 100%;
+}
+
+.pricingimg{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-header {
+  padding: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.pricing-index{
+  text-align: center;
+  color: #EEEEEE;
+
+}
+
+.index_space{
+  margin-left:auto;
+}
+
+
+/* MEDIA QUERY  */
+
+
+/* @media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1500px!important;
+}}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}}
+
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1000px;
+}}
+
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}}
+
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+}} */
+
+
+
+@media(max-width: 576px){
+  .navcontent{
+    padding: 11rem 3rem 3rem;
+    text-align: left;
+
+  }
+
+  h1{
+
+    font-size: 2.25rem;
+    
+  }
+}
